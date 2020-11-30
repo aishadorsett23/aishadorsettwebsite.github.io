@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#landing {background-color:rgba(182, 115, 71,0.5);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#landing h1 {
+    font-size: 90px;
+    color: white;
+    font-family: 'lobster two', cursive;
+    line-height: 85px;
+}
+
+#landing p {
+    font-size: 28px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+#landing .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#landing .button:hover {
+    color: white;
+    border:rgb(87, 168, 192) 1.5px solid;
+    border-width: 4px;
+}
+
+.wholepage {
+    background-color:rgba(129, 126, 126, 0.2);
+    
+    background-size: cover;
+    margin-right: 0;
+}
+
+#logo {border-radius: 90px;
+border-color: black;
+border-width: 5px;
+margin-right: 10cm;
+rotate: 5;}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    color: (212,106,122);
+
+}
+.nav-link {
+    color:rgb(182, 115, 71,0.8);
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16PX;
+    padding: 10px;
+    margin-right: 5px;
+}
+.nav-link:hover {
+    color: rgb(106, 114, 114);
+    font-weight: bold;
+    border-style: solid;
+    border-color:rgba(93, 142, 189, 0.8);
+    border-radius: 7px;
+    border-width: thin;
+}
+
+#navbarall {  
+}
+/* jumbotron styling */
+
+#headJumbo img {
+    height: 200px;
+    width: auto;
+}
+
+#headJumbo h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 4rem;
+    color: azure;
+}
+#headJumbo h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.2rem;
+    color: azure;
+}
+.jumbotron {
+    margin-top: 10px;
+    background-color: rgba(106, 155, 201, 0.884);
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px grey;
+    background-image: linear-gradient(to right, rgba(214, 166, 166, 0.3),rgb(93, 142, 189));
+}
+
+/* about me styling */
+#aboutme {
+    color:#fff;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    font-size: 22px;
+    background-color:rgb(182, 115, 71,0.5);
+    background-size: cover;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.htmlid {
+    text-align: right;
+}
+
+#aboutme h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.4rem;
+}
+
+/* skills */
+
+#skills h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background-color:rgba(93, 142, 189, 0.7);
+    background-size: cover;
+   
+    
+    
+
+}
+.col {
+    color:black;
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    
+}
+
+#skills {
+    margin: auto;
+}
+
+#skills svg.svg-inline--fa {
+    font-size: 5rem;
+    margin: auto;
+    margin-top: 15px;
+    color:  rgb(182, 115, 71,0.5);   
+}
+#skills svg.svg-inline--fa:hover {
+    color:rgb(93, 142, 189);
+    font-size: 5.2rem;
+}
+
+
+.skilldetails h4 {
+    color: rgba(93, 142, 189, 0.7);
+    font-size: 23px;
+    font-family:'Dosis', sans-serif;
+    font-weight: bold;
+}
+/* project show case */
+
+.cap1 h3 {
+    color: rgba(0, 1, 2, 1);
+}
+
+.cap1 p {
+    color: rgb(0, 0, 0);
+}
+
+#carousel-indicators li {
+    display: none;
+}
+
+.projectid h2 {background-color:rgba(93, 142, 189, 0.7);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: azure;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.card-title {
+    text-decoration: underline;
+    font-family: 'dosis', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-body {
+    height: 600px;
+    color: white;
+    background-color: rgb(182, 115, 71,0.5);
+}
+
+#carclass {color: black}
+
+#projectshow img {
+    width: 100%;
+    height: 400px;
+    padding: 30px 0;
+    margin-top: 75px;
+}
+
+.cap1 {margin-top: 15px ;
+color: black;}
+
+#testimonialssection h2 {
+    margin-top: 100px;
+    color:azure;
+    font-family: 'Dosis', sans-serif;
+    border-style: none;
+    text-align: center;
+    background-color: rgba(93, 142, 189, 0.7);
+}
+
+#testimonialssection p {
+    color: grey;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* footer */
+#contacts svg.svg-inline--fa {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 75px;
+    margin-right: 75px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 4rem;
+    color: white; 
+        
+}
+#contacts svg.svg-inline--fa:hover {
+    color: rgba(212,106,122 0.7);
+    font-size: 5rem;
+}
+
+/*#footerid {background-color: rgba(93, 142, 189, 0.5);
+border-radius: 15px;
+height: 300px;}*/
+
+#footerid {background-color: rgb(182, 115, 71,0.5);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;}
+
+.footer-text {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    
+}
+#contactssection {color:white;
+margin-top: 30px;
+margin-bottom: 5px;
+font-family: 'dosis', sans-serif;
+font-size: 60px;
+}
+
+
+
